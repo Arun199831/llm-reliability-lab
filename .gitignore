@@ -3,3 +3,6 @@
 __pycache__/
 *.pyc
 .env
+
+ai/langchain_V2/data/
+ai/langchain_V2/processed/
