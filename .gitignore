@@ -6,3 +6,5 @@ __pycache__/
 
 ai/langchain_V2/data/
 ai/langchain_V2/processed/
+
+ai/langchain_V2/chroma_db/
