@@ -12,7 +12,7 @@ except ImportError:
 from vectorstore import load_chunks, chunks_to_document
 
 
-def build_bm25_retriever(chunks_path: Path, k: int = 5) -> BM25Retriever:
+def build_bm25_retriever(chunks_path: Path, k: int = 3) -> BM25Retriever:
     """Build a BM25 (sparse/keyword) retriever from the full chunk corpus.
     No persistence: BM25's IDF statistics are corpus-wide and there's no
     embedding cost, so rebuilding fresh every run is correct, not a shortcut."""
@@ -54,7 +54,7 @@ def build_hybrid_retriever(
     persist_dir: Path,
     collection_name: str = "rag_papers",
     embedding_model: str = "text-embedding-3-small",
-    k: int = 5,
+    k: int = 3,
     dense_weight: float = 0.5,
     sparse_weight: float = 0.5,
 ) -> EnsembleRetriever:
