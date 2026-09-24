@@ -1,0 +1,16 @@
+{"question": "How does multi-head attention work?", "should_answer": true, "expected": ["parallel", "concatenat"]}
+{"question": "How many attention heads does the base Transformer use?", "should_answer": true, "expected": ["8", "eight"]}
+{"question": "How many layers are in the Transformer encoder?", "should_answer": true, "expected": ["6", "six"]}
+{"question": "What BLEU score did the Transformer achieve on WMT 2014 English-to-German?", "should_answer": true, "expected": ["28.4"]}
+{"question": "What optimizer was used to train the Transformer?", "should_answer": true, "expected": ["adam"]}
+{"question": "What are the two components of a RAG model?", "should_answer": true, "expected": ["retriever", "generator", "parametric"]}
+{"question": "What retriever does RAG use?", "should_answer": true, "expected": ["dpr", "dense passage"]}
+{"question": "What generator model does RAG use?", "should_answer": true, "expected": ["bart"]}
+{"question": "How many parameters does GPT-3 have?", "should_answer": true, "expected": ["175"]}
+{"question": "How many tokens was GPT-3 trained on?", "should_answer": true, "expected": ["300 billion"]}
+{"question": "What dataset was the Transformer's English-to-Japanese model trained on?", "should_answer": false}
+{"question": "What is the context window of GPT-4?", "should_answer": false}
+{"question": "How does RAG perform compared to GPT-4 on Natural Questions?", "should_answer": false}
+{"question": "How many GPUs were used to train RAG on Japanese Wikipedia?", "should_answer": false}
+{"question": "What is the capital of Australia?", "should_answer": false}
+{"question": "What is a good recipe for sambar?", "should_answer": false}
